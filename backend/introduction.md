@@ -108,13 +108,6 @@ Browser sử dụng **Rendering Engine** để vẽ giao diện và **JavaScript
 
 Rendering Engine, ví dụ Blink, Gecko, WebKit, là bộ phận chịu trách nhiệm chuyển HTML và CSS thành giao diện hiển thị trên màn hình.
 
-```mermaid
-flowchart TD
-    A["HTML + CSS"] --> B["Phân tích"]
-    B --> C["Vẽ giao diện"]
-    C --> D["Hiển thị màn hình"]
-```
-
 ### JavaScript Engine
 
 JavaScript Engine là thành phần thực thi mã JavaScript trong browser.
